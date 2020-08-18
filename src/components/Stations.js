@@ -21,8 +21,6 @@ export default function Stations(props) {
             <p className="description">{station.description}</p>
           </div>
           :
-          // <p><span className="name">{station.name}</span> {tagsStr}</p>
-          // <p><span className="name" onClick={() => this.setState({ selectedStationId: station.id })}>{station.name}</span> {tagsStr}</p>
           <p><span className="name" onClick={() => props.handleSelect(station.id)}>{station.name}</span> {tagsStr}</p>
         }
       </div>

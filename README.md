@@ -1,6 +1,6 @@
 # Sample stations selector
 This application is built with React and uses Mini TuneIn API.
-It presents stations split into two categories: music and news. The stations in each category are sorted by their popularitym, with the most popolar shown on top.
+It presents stations split into two categories: music and news. The stations in each category are sorted by their popularity, with the most popolar shown on top.
 
 Here is a screenshot:
 <p align="center">
