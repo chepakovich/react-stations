@@ -4,7 +4,7 @@ It presents stations split into two categories: music and news. The stations in 
 
 Here is a screenshot:
 <p align="center">
-  <img src="screenshot.png" width="700"/>
+  <img src="screenshot.png" width="360"/>
 </p>
 
 ## Viewing the app
