@@ -19,10 +19,10 @@ h1 {
 }
 
 h2 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
-p {margin-top: 5px;}
+p {margin: 10px 0 10px;}
 
 .name {
   font-weight: bold;
@@ -48,7 +48,8 @@ audio {
   color: #F012BE;
 }
 
-.center {
-  text-align: center;
+img {
+  margin-bottom: -7px;
+  padding-right: 10px;
 }
 

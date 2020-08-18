@@ -13,7 +13,11 @@ export default function Stations(props) {
       <div key={index}>
         {station.id === props.selectedStationId ?
           <div>
-            <p><span className="selected">{station.name}</span> {tagsStr}</p>
+            <p>
+              <img src={station.imgUrl} alt={station.name} width="25" height="25"></img>
+              <span className="selected">{station.name}</span>
+              {tagsStr}
+            </p>
             <audio controls autoPlay={true} preload="auto">
               <source src={station.streamUrl} />
               <p>Your browser does not support the audio element.</p>
@@ -21,7 +25,11 @@ export default function Stations(props) {
             <p className="description">{station.description}</p>
           </div>
           :
-          <p><span className="name" onClick={() => props.handleSelect(station.id)}>{station.name}</span> {tagsStr}</p>
+          <p>
+            <img src={station.imgUrl} alt={station.name} width="25" height="25"></img>
+            <span className="name" onClick={() => props.handleSelect(station.id)}>{station.name}</span>
+            {tagsStr}
+          </p>
         }
       </div>
     )
